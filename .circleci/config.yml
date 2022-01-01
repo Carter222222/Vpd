@@ -8,7 +8,7 @@ jobs:
       - run: 
          name: Install Dependencies 
          command: | 
-          wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-focal-x64.tar.gz
+          sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
            
 workflows: 
  version: 2.1 
